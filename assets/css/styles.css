@@ -370,6 +370,7 @@ svg {
 
 .about__image {
   justify-self: center;
+  width: 300px;
 }
 
 .about__img {

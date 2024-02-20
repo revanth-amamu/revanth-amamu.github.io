@@ -52,7 +52,7 @@
                   </li>
 
                   <li class ="nav__item">
-                     <a href="/assets/img/Revanth_Amamu_Resume.pdf" target="_blank" class="nav__btn nav-link resume" id="resume-link-1" download>Resume</a>
+                     <a href="/assets/img/Revanth_Amamu_Resume.pdf" target="_blank" class="nav__btn nav-link resume" id="resume-button-1" download>Resume</a>
                   </li>
                </ul>
 
@@ -85,7 +85,7 @@
 
                      <h3 class="home__education">Web Developer</h3>
 
-                     <p class="home__description" id="user-detail-intro">
+                     <p class="home__description">
                         I am a skilled web designer with experience in
                         creating visually appealing and user friendly websites
                      </p>
@@ -131,17 +131,18 @@
                      About Me
                   </h2>
 
-                  <p class="about__description">
+                  <p class="about__description" id="user-detail-intro">
                      I am a skilled and passionate web designer with experience in creating visually 
                      appealing and user-friendly websites. I have a strong understanding of design and a 
                      keen eye for detail. I am proficient in HTML, CSS, and JavaScript.
                   </p>
 
-                  <a href="/assets/img/Revanth_Amamu_Resume.pdf" target="_blank" class="button"  id="resume-link-2" download>Resume</a>
+                  <a href="/assets/img/Revanth_Amamu_Resume.pdf" target="_blank" class="button"  id="resume-button-2" download>Resume</a>
                </div>
 
-               <div class="about__image">
-                  <svg class="about__blob" viewBox="0 0 550 591" xmlns="http://www.w3.org/2000/svg">
+               <div class="about__image home-img">
+                  <img src="./assets/img/Revanth_Photo.jpg" alt="profile_image">
+                  <!-- <svg class="about__blob" viewBox="0 0 550 591" xmlns="http://www.w3.org/2000/svg">
                      <mask id="maskBlob" mask-type="alpha">
                         <path d="M263 47.1782C270.426 42.891 279.574 42.891 287 47.1782L501.157 
                         170.822C508.583 175.109 513.157 183.032 513.157 191.606V438.894C513.157 
@@ -170,10 +171,9 @@
                            <use href="#imageBlob" transform="matrix(0.00143057 0 0 0.00226984 0.0404062 0)"/>
                         </pattern>
                   
-                        <!-- Insert your profile (recommended size: 640 x 940) -->
-                        <image class="about__img home-img" id="imageBlob" width="640" height="970" href="./assets/img/revanth_photo.png"/>
+                        <image class="about__img home-img" id="imageBlob" width="640" height="970" href ="./assets/img/revanth_photo.png"/>
                      </defs>
-                  </svg>        
+                  </svg>         -->
                </div>
             </div>
          </section>
@@ -191,63 +191,63 @@
 
             <div class="skills__container container">
                <div class="skills__info">
-                  <div class="skills__data">
+                  <div class="skills__data skills-card">
                      <div class="skills__blob">
                         <img src="./assets/img/html.svg" alt="skills image" class="skills-card-img">
                      </div>
                      <h3 class="skills__name skills-card-name">HTML</h3>
                   </div>
    
-                  <div class="skills__data">
+                  <div class="skills__data skills-card">
                      <div class="skills__blob">
                         <img src="./assets/img/css.svg" alt="skills image" class="skills-card-img">
                      </div>
                      <h3 class="skills__name skills-card-name">CSS</h3>
                   </div>
    
-                  <div class="skills__data">
+                  <div class="skills__data skills-card">
                      <div class="skills__blob">
                         <img src="./assets/img/javascript.svg" alt="skills image" class="skills-card-img">
                      </div>
                      <h3 class="skills__name skills-card-name">JavaScript</h3>
                   </div>
    
-                  <div class="skills__data">
+                  <div class="skills__data skills-card">
                      <div class="skills__blob">
                         <img src="./assets/img/react.svg" alt="skills image" class="skills-card-img">
                      </div>
                      <h3 class="skills__name skills-card-name">React</h3>
                   </div>
    
-                  <div class="skills__data">
+                  <div class="skills__data skills-card">
                      <div class="skills__blob">
                         <img src="./assets/img/redux.svg" alt="skills image" class="skills-card-img">
                      </div>
                      <h3 class="skills__name skills-card-name">Redux</h3>
                   </div>
 
-                  <div class="skills__data">
+                  <div class="skills__data skills-card">
                      <div class="skills__blob">
                         <img src="./assets/img/git.svg" alt="skills image" class="skills-card-img">
                      </div>
                      <h3 class="skills__name skills-card-name">Git</h3>
                   </div>
 
-                  <div class="skills__data">
+                  <div class="skills__data skills-card">
                      <div class="skills__blob">
                         <img src="./assets/img/postgresql.svg" alt="skills image" class="skills-card-img">
                      </div>
                      <h3 class="skills__name skills-card-name">PostgreSQL</h3>
                   </div>
 
-                  <div class="skills__data">
+                  <div class="skills__data skills-card">
                      <div class="skills__blob">
                         <img src="./assets/img/mongodb.svg" alt="skills image" class="skills-card-img">
                      </div>
                      <h3 class="skills__name skills-card-name">MongoDB</h3>
                   </div>
 
-                  <div class="skills__data">
+                  <div class="skills__data skills-card">
                      <div class="skills__blob">
                         <img src="./assets/img/java.svg" alt="skills image" class="skills-card-img">
                      </div>
@@ -268,10 +268,10 @@
             </h2>
 
             <div class="projects__container container grid">
-               <article class="projects__card">
+               <article class="projects__card project-card">
                   <div class="project__first">
                      <div class="projects__image">
-                        <img src="assets/img/project_1_Reliance-.png" alt="image" class="projects__img">
+                        <img src="assets/img/project_1_Reliance.png" alt="image" class="projects__img">
                      </div>
    
                      <div class="projects__buttons">
@@ -300,11 +300,10 @@
                         <img src="./assets/img/bootstrap.svg" alt="Bootstrap">
                      </div>
                   </div>
-
                   
                </article>
 
-               <article class="projects__card">
+               <article class="projects__card project-card">
                   <div class="project__first">
                      <div class="projects__image">
                         <img src="assets/img/project_2_Globe_Gliders.png" alt="image" class="projects__img">
@@ -354,7 +353,9 @@
 
             <div class="stats__container container">
                
-               <img class="react-activity-calendar" src="https://ghchart.rshah.org/revanth-amamu" alt="Github chart" class="gh__sheet">
+               <img class="react-activity-calendar gh__sheet" src="https://ghchart.rshah.org/revanth-amamu" alt="Github chart">
+
+               <img id="github-top-langs" src="https://github-readme-stats.vercel.app/api/top-langs/?username=revanth-amamu" alt="top languages">
                
                <img id="github-stats-card" src="https://github-readme-stats.vercel.app/api?username=revanth-amamu" alt="github-readme-stats">
 
