@@ -1,148 +1,189 @@
 <!DOCTYPE html>
-   <html lang="en">
-   <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-      <!--=============== FAVICON ===============-->
-      <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+    <!--=============== FAVICON ===============-->
+    <link
+      rel="shortcut icon"
+      href="assets/img/favicon.png"
+      type="image/x-icon"
+    />
 
-      <!--=============== REMIXICONS ===============-->
-      <link href="https://cdn.jsdelivr.net/npm/remixicon@3.0.0/fonts/remixicon.css" rel="stylesheet">
+    <!--=============== REMIXICONS ===============-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.0.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
 
-      <!--=============== CSS ===============-->
-      <link rel="stylesheet" href="assets/css/styles.css">
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
 
-      <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script> 
+    <script
+      src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs"
+      type="module"
+    ></script>
 
-      <title>Responsive portfolio website - Bedimcode</title>
-   </head>
-   <body>
-      <!--==================== HEADER ====================-->
-      <header class="header" id="header" id="nav-menu">
-         <nav class="nav container">
-            <a href="#" class="nav__logo">
-               Revanth <span>Amamu</span>
-            </a>
+    <title>Portfolio | Revanth Amamu</title>
+  </head>
+  <body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header" id="nav-menu">
+      <nav class="nav container">
+        <a href="#" class="nav__logo"> Revanth <span>Amamu</span> </a>
 
-            <div class="nav__menu" id="nav-menu">
-               <ul class="nav__list">
-                  <li class ="nav__item">
-                     <a href="#home" class="nav__link nav-link home">Home</a>
-                  </li>
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link nav-link home">Home</a>
+            </li>
 
-                  <li class ="nav__item">
-                     <a href="#about" class="nav__link nav-link about">About</a>
-                  </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link nav-link about">About</a>
+            </li>
 
-                  <li class ="nav__item">
-                     <a href="#skills" class="nav__link nav-link skills">Skills</a>
-                  </li>
+            <li class="nav__item">
+              <a href="#skills" class="nav__link nav-link skills">Skills</a>
+            </li>
 
-                  <li class ="nav__item">
-                     <a href="#projects" class="nav__link nav-link projects">Projects</a>
-                  </li>
+            <li class="nav__item">
+              <a href="#projects" class="nav__link nav-link projects"
+                >Projects</a
+              >
+            </li>
 
-                  <li class ="nav__item">
-                     <a href="#statistics" class="nav__link">Statistics</a>
-                  </li>
+            <li class="nav__item">
+              <a href="#statistics" class="nav__link">Statistics</a>
+            </li>
 
-                  <li class ="nav__item">
-                     <a href="#contact" class="nav__link nav-link contact">Contact</a>
-                  </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link nav-link contact">Contact</a>
+            </li>
 
-                  <li class ="nav__item">
-                     <a href="/assets/img/Revanth_Amamu_Resume.pdf" target="_blank" class="nav__btn nav-link resume" id="resume-button-1" download>Resume</a>
-                  </li>
-               </ul>
+            <li class="nav__item">
+              <a
+                href="/assets/img/Revanth_Amamu_Resume.pdf"
+                target="_blank"
+                class="nav__btn nav-link resume"
+                id="resume-button-1"
+                download
+                >Resume</a
+              >
+            </li>
+          </ul>
 
-               <!-- Close button  -->
-               <div class="nav__close" id="nav-close">
-                  <i class="ri-close-line"></i>
-               </div>
+          <!-- Close button  -->
+          <div class="nav__close" id="nav-close">
+            <i class="ri-close-line"></i>
+          </div>
+        </div>
+
+        <!-- Toggle button  -->
+
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="ri-menu-line"></i>
+        </div>
+      </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+      <!--==================== HOME ====================-->
+      <section class="home section" id="home">
+        <div class="home__container container grid">
+          <div class="home__content">
+            <div class="home__data">
+              <h3 class="home__subtitle">Hello, <span>I'm</span></h3>
+
+              <h1 class="home__title" id="user-detail-name">Revanth Amamu</h1>
+
+              <h3 class="home__education">Web Developer</h3>
+
+              <p class="home__description">
+                I am a skilled web designer with experience in creating visually
+                appealing and user friendly websites
+              </p>
+
+              <a href="#contact" class="button">Let's Talk</a>
             </div>
 
-            <!-- Toggle button  -->
+            <div class="home__social">
+              <a
+                href="https://github.com/revanth-amamu"
+                target="_blank"
+                class="home__social-link"
+                id="contact-github"
+              >
+                <i class="ri-github-fill"></i>
+              </a>
 
-            <div class="nav__toggle" id="nav-toggle">
-               <i class="ri-menu-line"></i>
+              <a href="#contact" class="home__social-link" id="contact-email">
+                <i class="ri-mail-line"></i>
+              </a>
+
+              <a href="#contact" class="home__social-link" id="contact-phone">
+                <i class="ri-phone-line"></i>
+              </a>
+
+              <a
+                href="https://www.linkedin.com/in/revanthamamu/"
+                target="_blank"
+                class="home__social-link"
+                id="contact-linkedin"
+              >
+                <i class="ri-linkedin-box-fill"></i>
+              </a>
             </div>
-         </nav>
-      </header>
+          </div>
 
-      <!--==================== MAIN ====================-->
-      <main class="main">
-         <!--==================== HOME ====================-->
-         <section class="home section" id="home">
-            <div class="home__container container grid">
-               <div class="home__content">
-                  <div class="home__data">
-                     <h3 class="home__subtitle">
-                        Hello, <span>I'm</span>
-                     </h3>
+          <div class="home__image">
+            <dotlottie-player
+              class="home__blob"
+              src="https://lottie.host/64db08e6-44e2-4c4b-8751-2e3aee7913b3/1QVKUsEA0D.json"
+              speed=".8"
+              loop
+              autoplay
+            ></dotlottie-player>
+          </div>
+        </div>
+      </section>
 
-                     <h1 class="home__title" id="user-detail-name"> Revanth Amamu </h1>
+      <!--==================== ABOUT ====================-->
+      <section class="about section" id="about">
+        <div class="about__container container grid">
+          <div class="about__data">
+            <h3 class="section__subtitle">My <span>Intro</span></h3>
 
-                     <h3 class="home__education">Web Developer</h3>
+            <h2 class="section__title">About Me</h2>
 
-                     <p class="home__description">
-                        I am a skilled web designer with experience in
-                        creating visually appealing and user friendly websites
-                     </p>
+            <p class="about__description" id="user-detail-intro">
+              MERN stack developer with expertise in Node.js and React.js.
+              Completed 30 weeks of intensive training in Full Stack Web
+              Development from Masai School. Proficient in collaborating with
+              other developers to build functional and visually appealing user
+              interfaces using React.js and robust backend systems using
+              Node.js. Demonstrates solid problem-solving skills, attention to
+              detail, and commitment to continuous learning.
+            </p>
 
-                     <a href="#contact" class="button">Let's Talk</a>
-                  </div>
+            <a
+              href="/assets/img/Revanth_Amamu_Resume.pdf"
+              target="_blank"
+              class="button"
+              id="resume-button-2"
+              download
+              >Resume</a
+            >
+          </div>
 
-                  <div class="home__social">
-                     <a href="https://github.com/revanth-amamu" target="_blank" class="home__social-link"  id="contact-github">
-                        <i class="ri-github-fill"></i>
-                     </a>
-
-                     <a href="" target="_blank" class="home__social-link"  id="contact-email">
-                        <i class="ri-mail-line"></i>
-                     </a>
-
-                     <a href="" target="_blank" class="home__social-link"  id="contact-phone">
-                        <i class="ri-phone-line"></i>
-                     </a>
-
-                     <a href="https://www.linkedin.com/in/revanthamamu/" target="_blank" class="home__social-link" id="contact-linkedin">
-                        <i class="ri-linkedin-box-fill"></i>
-                     </a>
-                  </div>
-               </div>
-
-               <div class="home__image">
-                  <dotlottie-player class="home__blob" src="https://lottie.host/64db08e6-44e2-4c4b-8751-2e3aee7913b3/1QVKUsEA0D.json" speed=".8" loop autoplay></dotlottie-player>
-               </div>
-            </div>
-
-         </section>
-
-         <!--==================== ABOUT ====================-->
-         <section class="about section" id="about">
-            <div class="about__container container grid">
-               <div class="about__data">
-                  <h3 class="section__subtitle">
-                    My <span>Intro</span>
-                  </h3>
-
-                  <h2 class="section__title">
-                     About Me
-                  </h2>
-
-                  <p class="about__description" id="user-detail-intro">
-                     I am a skilled and passionate web designer with experience in creating visually 
-                     appealing and user-friendly websites. I have a strong understanding of design and a 
-                     keen eye for detail. I am proficient in HTML, CSS, and JavaScript.
-                  </p>
-
-                  <a href="/assets/img/Revanth_Amamu_Resume.pdf" target="_blank" class="button"  id="resume-button-2" download>Resume</a>
-               </div>
-
-               <div class="about__image">
-                  <img class="home-img" src="./assets/img/Revanth_Photo.jpg" alt="profile_image">
-                  <!-- <svg class="about__blob" viewBox="0 0 550 591" xmlns="http://www.w3.org/2000/svg">
+          <div class="about__image">
+            <img
+              class="home-img"
+              src="./assets/img/Revanth_Photo.jpg"
+              alt="profile_image"
+            />
+            <!-- <svg class="about__blob" viewBox="0 0 550 591" xmlns="http://www.w3.org/2000/svg">
                      <mask id="maskBlob" mask-type="alpha">
                         <path d="M263 47.1782C270.426 42.891 279.574 42.891 287 47.1782L501.157 
                         170.822C508.583 175.109 513.157 183.032 513.157 191.606V438.894C513.157 
@@ -174,278 +215,410 @@
                         <image class="about__img home-img" id="imageBlob" width="640" height="970" href ="./assets/img/revanth_photo.png"/>
                      </defs>
                   </svg>         -->
-               </div>
-            </div>
-         </section>
+          </div>
+        </div>
+      </section>
 
-         <!--==================== SKILLS ====================-->
-         <section class="skills section" id="skills">
-            
-            <h3 class="section__subtitle">
-               <span>Skills</span>
-            </h3>
+      <!--==================== SKILLS ====================-->
+      <section class="skills section" id="skills">
+        <h3 class="section__subtitle">
+          <span>Skills</span>
+        </h3>
 
-            <h2 class="section__title"> 
-               My Skills
-            </h2>
+        <h2 class="section__title">My Skills</h2>
 
-            <div class="skills__container container">
-               <div class="skills__info">
-                  <div class="skills__data skills-card">
-                     <div class="skills__blob">
-                        <img src="./assets/img/html.svg" alt="skills image" class="skills-card-img">
-                     </div>
-                     <h3 class="skills__name skills-card-name">HTML</h3>
-                  </div>
-   
-                  <div class="skills__data skills-card">
-                     <div class="skills__blob">
-                        <img src="./assets/img/css.svg" alt="skills image" class="skills-card-img">
-                     </div>
-                     <h3 class="skills__name skills-card-name">CSS</h3>
-                  </div>
-   
-                  <div class="skills__data skills-card">
-                     <div class="skills__blob">
-                        <img src="./assets/img/javascript.svg" alt="skills image" class="skills-card-img">
-                     </div>
-                     <h3 class="skills__name skills-card-name">JavaScript</h3>
-                  </div>
-   
-                  <div class="skills__data skills-card">
-                     <div class="skills__blob">
-                        <img src="./assets/img/react.svg" alt="skills image" class="skills-card-img">
-                     </div>
-                     <h3 class="skills__name skills-card-name">React</h3>
-                  </div>
-   
-                  <div class="skills__data skills-card">
-                     <div class="skills__blob">
-                        <img src="./assets/img/redux.svg" alt="skills image" class="skills-card-img">
-                     </div>
-                     <h3 class="skills__name skills-card-name">Redux</h3>
-                  </div>
-
-                  <div class="skills__data skills-card">
-                     <div class="skills__blob">
-                        <img src="./assets/img/git.svg" alt="skills image" class="skills-card-img">
-                     </div>
-                     <h3 class="skills__name skills-card-name">Git</h3>
-                  </div>
-
-                  <div class="skills__data skills-card">
-                     <div class="skills__blob">
-                        <img src="./assets/img/postgresql.svg" alt="skills image" class="skills-card-img">
-                     </div>
-                     <h3 class="skills__name skills-card-name">PostgreSQL</h3>
-                  </div>
-
-                  <div class="skills__data skills-card">
-                     <div class="skills__blob">
-                        <img src="./assets/img/mongodb.svg" alt="skills image" class="skills-card-img">
-                     </div>
-                     <h3 class="skills__name skills-card-name">MongoDB</h3>
-                  </div>
-
-                  <div class="skills__data skills-card">
-                     <div class="skills__blob">
-                        <img src="./assets/img/java.svg" alt="skills image" class="skills-card-img">
-                     </div>
-                     <h3 class="skills__name skills-card-name">Java</h3>
-                  </div>
-               </div>
-            </div>
-         </section>
-
-         <!--==================== PROJECTS ====================-->
-         <section class="projects section" id="projects">
-            <h3 class="section__subtitle">
-               My <span>Jobs</span>
-            </h3>
-
-            <h2 class="section__title">
-               Recent Projects
-            </h2>
-
-            <div class="projects__container container grid">
-               <article class="projects__card project-card">
-                  <div class="project__first">
-                     <div class="projects__image">
-                        <img src="assets/img/project_1_Reliance.png" alt="image" class="projects__img">
-                     </div>
-   
-                     <div class="projects__buttons">
-                        <a href="https://github.com/pkadam96/stellar-app-5678" target="_blank" class="projects__link project-github-link">
-                           <i class="ri-github-fill"></i> Code
-                        </a>
-   
-                        <a href="https://658044d058f3e6424095b6db--sparkling-lebkuchen-00abc5.netlify.app/" target="_blank" class="projects__link project-deployed-link">
-                           <i class="ri-expand-right-fill"></i> Demo 
-                        </a>
-                     </div>
-                  </div>
-
-                  <div class="projects__content">
-                     <h2 class="projects__title project-title">Reliance Digital Clone</h2>
-
-                     <p class="projects__description project-description">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                        Dolor, accusantium. Libero magnam perspiciatis corporis, 
-                        veniam quia illum mollitia tempora culpa eos fugiat obcaecati
-                     </p>
-
-                     <div class="project__tech project-tech-stack">
-                        <img src="./assets/img/html.svg" alt="HTML">
-                        <img src="./assets/img/css.svg" alt="CSS">
-                        <img src="./assets/img/bootstrap.svg" alt="Bootstrap">
-                     </div>
-                  </div>
-                  
-               </article>
-
-               <article class="projects__card project-card">
-                  <div class="project__first">
-                     <div class="projects__image">
-                        <img src="assets/img/project_2_Globe_Gliders.png" alt="image" class="projects__img">
-                     </div>
-   
-                     <div class="projects__buttons">
-                        <a href="https://github.com/Saurabh8657/Team_kushal_koder" target="_blank" class="projects__link project-github-link">
-                           <i class="ri-github-fill"></i> Code
-                        </a>
-   
-                        <a href="https://team-kushal-koder.vercel.app/" target="_blank" class="projects__link project-deployed-link">
-                           <i class="ri-expand-right-fill"></i> Demo 
-                        </a>
-                     </div>
-                  </div>
-
-                  <div class="projects__content">
-                     <h2 class="projects__title project-title">Globe Gliders</h2>
-
-                     <p class="projects__description project-description">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                        Dolor, accusantium. Libero magnam perspiciatis corporis, 
-                        veniam quia illum mollitia tempora culpa eos fugiat obcaecati
-                     </p>
-
-                     <div class="project__tech project-tech-stack">
-                        <img src="./assets/img/html.svg" alt="HTML">
-                        <img src="./assets/img/css.svg" alt="CSS">
-                        <img src="./assets/img/javascript.svg" alt="JavaScript">
-                     </div>
-                  </div>
-
-                  
-               </article>
-            </div>
-         </section>
-
-         <!--==================== GIT STAT'S ====================-->
-         <section class="stats section" id="statistics">
-            <h3 class="section__subtitle">
-               My <span>stat's</span>
-            </h3>
-
-            <h2 class="section__title">
-               Git Stat's
-            </h2>
-
-            <div class="stats__container container">
-               
-               <img class="react-activity-calendar gh__sheet" src="https://ghchart.rshah.org/revanth-amamu" alt="Github chart">
-
-               <img id="github-top-langs" src="https://github-readme-stats.vercel.app/api/top-langs/?username=revanth-amamu" alt="top languages">
-               
-               <img id="github-stats-card" src="https://github-readme-stats.vercel.app/api?username=revanth-amamu" alt="github-readme-stats">
-
-               <img  id="github-streak-stats" src="https://github-readme-streak-stats.herokuapp.com?user=revanth-amamu&theme=vue" alt="https://git.io/streak-stats">
+        <div class="skills__container container">
+          <div class="skills__info">
+            <div class="skills__data skills-card">
+              <div class="skills__blob">
+                <img
+                  src="./assets/img/html.svg"
+                  alt="skills image"
+                  class="skills-card-img"
+                />
+              </div>
+              <h3 class="skills__name skills-card-name">HTML</h3>
             </div>
 
-         </section>
-         
-
-         <!--==================== CONTACT ====================-->
-         <section class="contact section" id="contact">
-            <h3 class="section__subtitle">
-               Get In <span>Touch</span>
-            </h3>
-
-            <h2 class="section__title">
-               Contact Me
-            </h2>
-
-            <div class="contact__container container grid">
-
-               <div class="contact__ways">
-                  <div class="contact__first">
-                     <i class="ri-phone-fill"></i> +91 9676228603
-                  </div>
-                  <div class="contact__first">
-                     <i class="ri-map-pin-2-fill"></i> Porumamilla, Andhra Pradesh
-                  </div>
-                  <div class="contact__first">
-                     <i class="ri-mail-line"></i> revanthamamu@gmail.com
-                  </div>
-               </div>
-
-               <div>
-                  <form action="" class="contact__form" id="contact-form">
-                     <div class="contact__group">
-                        <input type="text" name="user_name" placeholder="Enter your name" class="contact__input">
-                        <input type="email" name="user_email" placeholder="Enter your email" class="contact__input">
-                        <input type="text" name="user_name" placeholder="Enter your subject" class="contact__input">
-                     </div>
-   
-                     <textarea name="user_message" required placeholder="Enter your message" class="contact__input"></textarea>
-   
-                     <p class="contact__message" id="contact-message"></p>
-   
-                     <button type="submit" class="button contact__button">
-                        Send Message
-                     </button>
-                  </form>
-               </div>
-            </div>
-         </section>
-      </main>
-
-      <!--==================== FOOTER ====================-->
-      <footer class="footer">
-         <div class="footer__container container grid">
-            <div>
-               <h1 class="footer__title">
-                  Revanth <span>Amamu</span>
-               </h1>
-   
-               <h2 class="footer__education">
-                  Web Developer
-               </h2>
+            <div class="skills__data skills-card">
+              <div class="skills__blob">
+                <img
+                  src="./assets/img/css.svg"
+                  alt="skills image"
+                  class="skills-card-img"
+                />
+              </div>
+              <h3 class="skills__name skills-card-name">CSS</h3>
             </div>
 
-            <div class="footer__social">
-               <a href="https://github.com/revanth-amamu" target="_blank" class="footer__social-link">
-                  <i class="ri-github-line"></i>
-               </a>
-               <a href="https://www.linkedin.com/in/revanthamamu/" target="_blank" class="footer__social-link">
-                  <i class="ri-linkedin-box-line"></i>
-               </a>
+            <div class="skills__data skills-card">
+              <div class="skills__blob">
+                <img
+                  src="./assets/img/javascript.svg"
+                  alt="skills image"
+                  class="skills-card-img"
+                />
+              </div>
+              <h3 class="skills__name skills-card-name">JavaScript</h3>
             </div>
-         </div>
-      </footer>
 
-      <!--========== SCROLL UP ==========-->
-      <a href="#" class="scrollup" id="scroll-up">
-         <i class="ri-arrow-up-line"></i>
-      </a>
+            <div class="skills__data skills-card">
+              <div class="skills__blob">
+                <img
+                  src="./assets/img/react.svg"
+                  alt="skills image"
+                  class="skills-card-img"
+                />
+              </div>
+              <h3 class="skills__name skills-card-name">React</h3>
+            </div>
 
-      <!--=============== SCROLLREVEAL ===============-->
-      <script src="./assets/js/scrollreveal.min.js"></script>
+            <div class="skills__data skills-card">
+              <div class="skills__blob">
+                <img
+                  src="./assets/img/redux.svg"
+                  alt="skills image"
+                  class="skills-card-img"
+                />
+              </div>
+              <h3 class="skills__name skills-card-name">Redux</h3>
+            </div>
 
-      <!--=============== EMAIL JS ===============-->
-      
+            <div class="skills__data skills-card">
+              <div class="skills__blob">
+                <img
+                  src="./assets/img/git.svg"
+                  alt="skills image"
+                  class="skills-card-img"
+                />
+              </div>
+              <h3 class="skills__name skills-card-name">Git</h3>
+            </div>
 
-      <!--=============== MAIN JS ===============-->
-      <script src="assets/js/main.js"></script>
-   </body>
+            <div class="skills__data skills-card">
+              <div class="skills__blob">
+                <img
+                  src="./assets/img/postgresql.svg"
+                  alt="skills image"
+                  class="skills-card-img"
+                />
+              </div>
+              <h3 class="skills__name skills-card-name">PostgreSQL</h3>
+            </div>
+
+            <div class="skills__data skills-card">
+              <div class="skills__blob">
+                <img
+                  src="./assets/img/mongodb.svg"
+                  alt="skills image"
+                  class="skills-card-img"
+                />
+              </div>
+              <h3 class="skills__name skills-card-name">MongoDB</h3>
+            </div>
+
+            <div class="skills__data skills-card">
+              <div class="skills__blob">
+                <img
+                  src="./assets/img/java.svg"
+                  alt="skills image"
+                  class="skills-card-img"
+                />
+              </div>
+              <h3 class="skills__name skills-card-name">Java</h3>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== PROJECTS ====================-->
+      <section class="projects section" id="projects">
+        <h3 class="section__subtitle">My <span>Jobs</span></h3>
+
+        <h2 class="section__title">Recent Projects</h2>
+
+        <div class="projects__container container grid">
+          <article class="projects__card project-card">
+            <div class="project__first">
+              <div class="projects__image">
+                <img
+                  src="assets/img/project_3_Facebook_Clone.png"
+                  alt="image"
+                  class="projects__img"
+                />
+              </div>
+
+              <div class="projects__buttons">
+                <a
+                  href="https://github.com/VishnurajKarockal/byte-illusionist-1234"
+                  target="_blank"
+                  class="projects__link project-github-link"
+                >
+                  <i class="ri-github-fill"></i> Code
+                </a>
+
+                <a
+                  href="https://byte-illusionists-fbclone.netlify.app/"
+                  target="_blank"
+                  class="projects__link project-deployed-link"
+                >
+                  <i class="ri-expand-right-fill"></i> Demo
+                </a>
+              </div>
+            </div>
+
+            <div class="projects__content">
+              <h2 class="projects__title project-title">
+                Reliance Digital Clone
+              </h2>
+
+              <p class="projects__description project-description">
+                Byte-Illusionists! An immersive social networking platform
+                inspired by Facebook. Users enjoy seamless login, registration,
+                and interaction with features such as posting, video sharing,
+                and connecting with friends. Furthermore, our platform boasts a
+                marketplace section, empowering users to explore a diverse array
+                of items.
+              </p>
+
+              <div class="project__tech project-tech-stack">
+                <img src="./assets/img/react.svg" alt="HTML" />
+                <img src="./assets/img/redux.svg" alt="CSS" />
+                <img src="./assets/img/tailwindcss.svg" alt="Bootstrap" />
+              </div>
+            </div>
+          </article>
+          <article class="projects__card project-card">
+            <div class="project__first">
+              <div class="projects__image">
+                <img
+                  src="assets/img/project_1_Reliance.png"
+                  alt="image"
+                  class="projects__img"
+                />
+              </div>
+
+              <div class="projects__buttons">
+                <a
+                  href="https://github.com/pkadam96/stellar-app-5678"
+                  target="_blank"
+                  class="projects__link project-github-link"
+                >
+                  <i class="ri-github-fill"></i> Code
+                </a>
+
+                <a
+                  href="https://658044d058f3e6424095b6db--sparkling-lebkuchen-00abc5.netlify.app/"
+                  target="_blank"
+                  class="projects__link project-deployed-link"
+                >
+                  <i class="ri-expand-right-fill"></i> Demo
+                </a>
+              </div>
+            </div>
+
+            <div class="projects__content">
+              <h2 class="projects__title project-title">
+                Reliance Digital Clone
+              </h2>
+
+              <p class="projects__description project-description">
+                A UI project resembling Reliance Digital's e-commerce platform,
+                developed using the Bootstrap framework. Prioritized user
+                experience and interface aesthetics. Features include product
+                browsing, selection, and checkout functionalities. Committed to
+                delivering a user-friendly shopping experience without backend
+                integration.
+              </p>
+
+              <div class="project__tech project-tech-stack">
+                <img src="./assets/img/html.svg" alt="HTML" />
+                <img src="./assets/img/css.svg" alt="CSS" />
+                <img src="./assets/img/bootstrap.svg" alt="Bootstrap" />
+              </div>
+            </div>
+          </article>
+
+          <article class="projects__card project-card">
+            <div class="project__first">
+              <div class="projects__image">
+                <img
+                  src="assets/img/project_2_Globe_Gliders.png"
+                  alt="image"
+                  class="projects__img"
+                />
+              </div>
+
+              <div class="projects__buttons">
+                <a
+                  href="https://github.com/Saurabh8657/Team_kushal_koder"
+                  target="_blank"
+                  class="projects__link project-github-link"
+                >
+                  <i class="ri-github-fill"></i> Code
+                </a>
+
+                <a
+                  href="https://team-kushal-koder.vercel.app/"
+                  target="_blank"
+                  class="projects__link project-deployed-link"
+                >
+                  <i class="ri-expand-right-fill"></i> Demo
+                </a>
+              </div>
+            </div>
+
+            <div class="projects__content">
+              <h2 class="projects__title project-title">Globe Gliders</h2>
+
+              <p class="projects__description project-description">
+                Globe Gliders is an online travel booking website. It provides a
+                platform for users to browse and purchase travel packages
+                conveniently online.
+              </p>
+
+              <div class="project__tech project-tech-stack">
+                <img src="./assets/img/html.svg" alt="HTML" />
+                <img src="./assets/img/css.svg" alt="CSS" />
+                <img src="./assets/img/javascript.svg" alt="JavaScript" />
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!--==================== GIT STAT'S ====================-->
+      <section class="stats section" id="statistics">
+        <h3 class="section__subtitle">My <span>stat's</span></h3>
+
+        <h2 class="section__title">Git Stat's</h2>
+
+        <div class="stats__container container">
+          <img
+            class="react-activity-calendar gh__sheet"
+            src="https://ghchart.rshah.org/revanth-amamu"
+            alt="Github chart"
+          />
+
+          <img
+            id="github-top-langs"
+            src="https://github-readme-stats.vercel.app/api/top-langs/?username=revanth-amamu"
+            alt="top languages"
+          />
+
+          <img
+            id="github-stats-card"
+            src="https://github-readme-stats.vercel.app/api?username=revanth-amamu"
+            alt="github-readme-stats"
+          />
+
+          <img
+            id="github-streak-stats"
+            src="https://github-readme-streak-stats.herokuapp.com?user=revanth-amamu&theme=vue"
+            alt="https://git.io/streak-stats"
+          />
+        </div>
+      </section>
+
+      <!--==================== CONTACT ====================-->
+      <section class="contact section" id="contact">
+        <h3 class="section__subtitle">Get In <span>Touch</span></h3>
+
+        <h2 class="section__title">Contact Me</h2>
+
+        <div class="contact__container container grid">
+          <div class="contact__ways">
+            <div class="contact__first">
+              <i class="ri-phone-fill"></i> +91 9676228603
+            </div>
+            <div class="contact__first">
+              <i class="ri-map-pin-2-fill"></i> Porumamilla, Andhra Pradesh
+            </div>
+            <div class="contact__first">
+              <i class="ri-mail-line"></i> revanthamamu@gmail.com
+            </div>
+          </div>
+
+          <div>
+            <form action="" class="contact__form" id="contact-form">
+              <div class="contact__group">
+                <input
+                  type="text"
+                  name="user_name"
+                  placeholder="Enter your name"
+                  class="contact__input"
+                />
+                <input
+                  type="email"
+                  name="user_email"
+                  placeholder="Enter your email"
+                  class="contact__input"
+                />
+                <input
+                  type="text"
+                  name="user_name"
+                  placeholder="Enter your subject"
+                  class="contact__input"
+                />
+              </div>
+
+              <textarea
+                name="user_message"
+                required
+                placeholder="Enter your message"
+                class="contact__input"
+              ></textarea>
+
+              <p class="contact__message" id="contact-message"></p>
+
+              <button type="submit" class="button contact__button">
+                Send Message
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+      <div class="footer__container container grid">
+        <div>
+          <h1 class="footer__title">Revanth <span>Amamu</span></h1>
+
+          <h2 class="footer__education">Web Developer</h2>
+        </div>
+
+        <div class="footer__social">
+          <a
+            href="https://github.com/revanth-amamu"
+            target="_blank"
+            class="footer__social-link"
+          >
+            <i class="ri-github-line"></i>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/revanthamamu/"
+            target="_blank"
+            class="footer__social-link"
+          >
+            <i class="ri-linkedin-box-line"></i>
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <!--========== SCROLL UP ==========-->
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="ri-arrow-up-line"></i>
+    </a>
+
+    <!--=============== SCROLLREVEAL ===============-->
+    <script src="./assets/js/scrollreveal.min.js"></script>
+
+    <!--=============== EMAIL JS ===============-->
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>

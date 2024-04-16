@@ -813,6 +813,16 @@ svg {
     backdrop-filter: blur(25px);
     -webkit-backdrop-filter:blur(25px);
   }
+
+  .skills__info {
+    grid-template-columns: repeat(5,1fr);
+  }
+
+  .contact__container {
+    grid-template-columns: 280px 550px;
+    column-gap: 2.5rem;
+    padding: 0.5rem .25rem;
+  }
 }
 
 @media screen and (min-width: 1152px) {
@@ -856,6 +866,7 @@ svg {
   .about__description {
     margin-bottom: 3rem;
   }
+  
 
   /* .skills__container {
     grid-template-columns: 340px 425px;
@@ -879,9 +890,9 @@ svg {
     font-size: var(--h3-font-size);
   } */
 
-  .skills__info {
+  /* .skills__info {
     grid-template-columns: repeat(5,1fr);
-  }
+  } */
 
   /* .projects__container {
     row-gap: 3rem;
